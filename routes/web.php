@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home.home-page');
-});
+// Route::get('/', function () {
+//     return view('home.home-page');
+// });
 
 Route::get('/', function() {
 
@@ -130,8 +130,7 @@ Route::get('/', function() {
             "type" => "graphic novel",
         ]
     ];
-        
+    $title = "Pagina fumetti";
 
     return view('comics', compact('comics'));
-
-    })
+});
