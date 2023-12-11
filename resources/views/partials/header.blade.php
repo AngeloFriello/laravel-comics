@@ -5,7 +5,7 @@
                 <div>
                     </div>
                         <ul class="d-flex gap-3">
-                            <li>ciao</li>
+                            <li><a href="{{route('single')}}">Singol</a></li>
                             <li>PAGINA PROVA</li>
                             <li>movies</li>
                             <li>movies</li>

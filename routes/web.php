@@ -130,7 +130,13 @@ Route::get('/', function() {
             "type" => "graphic novel",
         ]
     ];
-    $title = "Pagina fumetti";
+ 
 
     return view('comics', compact('comics'));
 });
+
+Route::get('/single', function() {
+
+ 
+    return view('comics');
+})->name('single');
